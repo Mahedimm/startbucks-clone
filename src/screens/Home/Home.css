@@ -131,12 +131,12 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .homeScreen__bottomRight > img {
-    max-width: 340px;
+    max-width: 320px;
   }
   .homeScreen__bottom {
-    align-items: flex-start;
+    align-items: center;
   }
 }
 @media (max-width: 325px) {
