@@ -11,7 +11,7 @@ import './Header.css';
 const Header = ({menuPage}) => {
     const user = useSelector(selectUser)
     return (
-           <div className={`header ${menuPage && "header__menuPage"}}`}>
+        <div className={`header ${menuPage && 'header__menuPage'}`}>
                 <div className="header__left">
                     <Link className="header__logo" to="/">
                         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="" srcset="" />
