@@ -36,7 +36,7 @@ const Header = ({menuPage}) => {
                         <Link className="header__link" to="/account/signIn">
                             <SignInButton />
                         </Link>
-                        <Link className="header__link" to="/account/signUp">
+                        <Link className="header__link" to="/account/create">
                             <SignUpButton />
                         </Link>
                         </>

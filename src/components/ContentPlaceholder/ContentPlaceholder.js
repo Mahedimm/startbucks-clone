@@ -18,7 +18,6 @@ const Paragraph = ({ link1, link2, link3, link4, link5, link6 ,path }) => (
 
 export const ContentPlaceholder = ({
   link1,
-
   link2,
   link3,
   link4,

@@ -4,7 +4,7 @@ import './buttons.css';
 const SignUpButton = () => {
     return (
         <span>
-        <Link className="signUpButton" to="/account/signUp">Join Now</Link>
+        <Link className="signUpButton" to="/account/create">Join Now</Link>
         </span>
     );
 };
