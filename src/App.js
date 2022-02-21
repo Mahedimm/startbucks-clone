@@ -7,11 +7,11 @@ import {
 import './App.css';
 import { login, logout, selectUser } from './features/user/userSlice';
 import { auth } from './Firebase/firebase.config';
+import FeaturedScreen from "./screens/FeaturedScreen/FeaturedScreen";
 import Home from './screens/Home/Home';
 import LoginScreen from './screens/Login/LoginScreen';
 import MenuScreen from "./screens/MenuScreen/MenuScreen";
 import SignUpScreen from "./screens/SignupScreen/SignUpScreen";
-import FeaturedScreen from "./screens/FeaturedScreen/FeaturedScreen";
 
 function App() {
   const user = useSelector(selectUser);
@@ -56,3 +56,5 @@ function App() {
 }
 
 export default App;
+
+// npm run build && firebase deploy
